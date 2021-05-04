@@ -1,10 +1,8 @@
-function Mouse(name){
-	this.name = name;
-	this.dead = false;
-}
-
+function Mouse(color){
+	this.color = color;
+	this.dead = false;	
+};
 Mouse.prototype.die = function(){
 	this.dead = true;
-}
-
+};
 module.exports = Mouse;
